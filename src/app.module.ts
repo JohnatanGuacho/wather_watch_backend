@@ -7,6 +7,8 @@ import { WaterModule } from './water/water.module';
 import { NasaPowerModule } from './nasa-power/nasa-power.module';
 import { PopulationModule } from './population/population.module';
 import { GibsModule } from './gibs/gibs.module';
+import { AnalyzeModule } from './analize/analize.module';
+
 // (agregaremos el PrecipitationModule luego)
 
 @Module({
@@ -17,6 +19,7 @@ import { GibsModule } from './gibs/gibs.module';
     NasaPowerModule,
     PopulationModule,
     GibsModule,
+    AnalyzeModule,
   ],
   controllers: [AppController],
   providers: [AppService],
